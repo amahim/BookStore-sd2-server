@@ -3,4 +3,4 @@ export const PORT = process.env.PORT || 5555;
 
 export const mongoDBURL =
   process.env.MONGODB_URL ||
-  "mongodb+srv://BookStore:OUVKphGNdLmzlfTg@cluster0.kreq4.mongodb.net/?appName=Cluster0";
+  "mongodb+srv://BookStore:OUVKphGNdLmzlfTg@cluster0.kreq4.mongodb.net/bookstore?retryWrites=true&w=majority&appName=Cluster0";
